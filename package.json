@@ -7,6 +7,10 @@
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhhhhaaaa/mutably-starter.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
