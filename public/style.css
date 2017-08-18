@@ -2,3 +2,16 @@
 .edit-form {
   display: none;
 }
+
+li {
+  text-align: center;
+  list-style-position: inside;
+}
+
+br {
+  line-height: 30px;
+}
+
+form {
+  line-height: 40px;
+}
