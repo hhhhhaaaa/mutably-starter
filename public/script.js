@@ -108,8 +108,8 @@ function createPokemonForm() {
   Pokemon Evolves From: <input type='text' class='creatPokemonEvolveField'> <br>
   Pokemon Image: <input type='text' class='createPokemonImageField'> <br>
   <button class='button-create'> Create </button>
-  </form>
-  <br> <br>`
+  <br> <br>
+  </form>`
 }
 
 function pokemonHTML(pokemonObject) {
