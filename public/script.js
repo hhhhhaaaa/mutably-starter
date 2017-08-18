@@ -102,11 +102,11 @@ function deletePokemon(pokemonIDNumber) {
 }
 
 function createPokemonForm() {
-  return `<form class='create-form'>
-  Pokemon Name: <input type='text' class='createPokemonNameField'> <br>
-  Pokemon Pokedex #: <input type='text' class='createPokedexNumberField'> <br>
-  Pokemon Evolves From: <input type='text' class='creatPokemonEvolveField'> <br>
-  Pokemon Image: <input type='text' class='createPokemonImageField'> <br>
+  return `<form class='create-form form-inline'>
+  Pokemon Name: <input type='text' class='createPokemonNameField form-control'> <br>
+  Pokemon Pokedex #: <input type='text' class='createPokedexNumberField form-control'> <br>
+  Pokemon Evolves From: <input type='text' class='creatPokemonEvolveField form-control'> <br>
+  Pokemon Image: <input type='text' class='createPokemonImageField form-control'> <br>
   <button class='button-create'> Create </button>
   <br> <br>
   </form>`
@@ -127,11 +127,11 @@ function pokemonHTML(pokemonObject) {
   <button class='button-edit' id='${pokemonID}'> Edit </button> <button class='button-delete' id='${pokemonID}'> Delete </button> </li>
   <br> <br>
 
-  <form class='edit-form edit-pokemon-${pokemonID}'>
-  Pokemon Name: <input type='text' class='pokemonNameField' value='${pokemonName}'> <br>
-  Pokemon Pokedex #: <input type='text' class='pokedexNumberField' value='${pokedexNumber}'> <br>
-  Pokemon Evolves From: <input type='text' class='pokemonEvolveField' value='${pokemonEvolve}'> <br>
-  Pokemon Image: <input type='text' class='pokemonImageField' value='${pokemonImage}'> <br>
+  <form class='edit-form edit-pokemon-${pokemonID} form-inline'>
+  Pokemon Name: <input type='text' class='pokemonNameField form-control' value='${pokemonName}'> <br>
+  Pokemon Pokedex #: <input type='text' class='pokedexNumberField form-control' value='${pokedexNumber}'> <br>
+  Pokemon Evolves From: <input type='text' class='pokemonEvolveField form-control' value='${pokemonEvolve}'> <br>
+  Pokemon Image: <input type='text' class='pokemonImageField form-control' value='${pokemonImage}'> <br>
   <button class='button-save' id='${pokemonID}'> Save </button>
   </form>
   <br> <br>
