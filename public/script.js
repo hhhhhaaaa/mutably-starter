@@ -12,6 +12,7 @@ $(document).ready(function() {
       'evolves_from': $('input.creatPokemonEvolveField').val(),
       'image': $('input.createPokemonImageField').val()
     }
+    createNewPokemon(pokemonCreate);
   });
   $(document).on('click', '.button-edit', function() {
     const id = $(this).attr('id');
@@ -43,7 +44,7 @@ $(document).ready(function() {
 
 function createNewPokemon(pokemonData) {
   $.ajax({
-      method: "PUT",
+      method: "POST",
       data: pokemonData,
       url: "https://mutably.herokuapp.com/pokemon/"
     })
