@@ -12,4 +12,5 @@ Press the delete button to delete an individual Pokemon.__
 To reset the seed data for the Pokemon, go to https://mutably.herokuapp.com/reset
 
 ## Heroku Deployment
+
 App is deployed to Heroku at https://pokemonmutablycrudapp.herokuapp.com/
